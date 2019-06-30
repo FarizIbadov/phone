@@ -4,8 +4,7 @@
 
 body{
     background: url(./../image/white-wall.jpg);
-    background-repeat: no-repeat;
-    
+    background-size: 100%;    
 }
 
 #end{
@@ -97,7 +96,7 @@ a{
 .connect{
     background: #fff;
     margin-top:30px;
-    width:25%;
+    width:27%;
     float:right;
     margin-right:140px;
     height:210px;
@@ -134,7 +133,7 @@ hr{
     background: #fff;
     margin-top:30px;
     width:50%;
-    margin-left:100px;
+    margin-left:6.66%;
     height:350px;
     padding:20px 0;
     display:inline-block;
@@ -145,7 +144,7 @@ hr{
     background: rgb(238, 237, 237);
 }
 
-@media screen and (min-width:1112px){
+@media screen and (min-width:1110px){
 
     .connect1{
         text-align: center;
@@ -165,11 +164,12 @@ hr{
 
 }
 
-@media screen and (max-width:786px){
+@media screen and (max-width:1110px){
+
     .main{
         width:75%;
         height:500px;
-        clear: both;
+        margin-left:12.5%;
     }
 
     .main > h2{
@@ -182,12 +182,14 @@ hr{
     #F{
         width:60%;
         margin-left:20%;
+        float:left;
     }
 
     #info{
-        margin:270px 300px 0 60px;
-        width:60%;
-        text-align: center;
+        margin-top:10%;
+        width:80%;
+        
+
     
     }
 
@@ -214,7 +216,7 @@ hr{
     }
 
     #end{
-        margin-top:50%;
+        margin-top:70%;
         color:#fff;
     }
 
@@ -224,8 +226,7 @@ hr{
         width:75%;
         height:210px;
         padding:-10px;
-        position: relative;
-        left:8.4%;
+        margin:5% 12.5% 0 0;
 
     }
 
