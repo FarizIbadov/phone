@@ -1,0 +1,175 @@
+body{
+    background: url(./../image/white-wall.jpg)
+}
+
+#end{
+    margin-top:120px;
+    color:#fff;
+}
+
+#blue{
+    background: rgb(28, 173, 154);
+    height: 10px;
+}
+
+#gray{
+    background:rgb(83, 82, 82);
+    color:white;
+    text-align: center;
+    padding:30px;
+}
+
+.about > h2{
+    font-size:2em;
+    font-weight: bold;
+    color:#fff;
+    background: rgb(28, 173, 154);
+    position:absolute;
+    padding:15px;
+    margin-left:10%;
+}
+
+.about > ul{
+    background:#fff;
+    height: 62px;
+    
+}
+
+.about > ul > a {
+    display:inline-block;
+    float:right;
+    margin-right:35px;
+    padding-top:20px;
+    color:gray;
+    height: 42px;
+    width:10%;
+    text-align: center;
+    font-size:1.2em;
+}
+
+ul > a:hover{
+    background: rgb(28, 173, 154);
+    color:#fff !important;
+   
+    
+
+}
+
+#L{
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+}
+
+
+#R{
+    margin-left: -35px;
+    margin-right: -5px;
+
+}
+
+#R1{
+    margin-right: -2px;
+}
+
+.main > h2{
+    font-size:2em;
+    font-weight: bold;
+    color: rgb(28, 173, 154);
+    padding:15px;
+    margin-left:10%;
+}
+
+.main{
+    background: #fff;
+    margin-top:30px;
+    width:50%;
+    margin-left:100px;
+    height:450px;
+    padding:20px 0;
+    display:inline-block;
+}
+
+hr{
+    width:90%;
+}
+
+#name,#email,#message{
+    color: rgb(134,134,134);
+    font-size:1.2em;
+    padding:20px 0 0 50px;
+}
+
+.main > div > form > input{
+
+}
+
+.connect{
+    background: #fff;
+    margin-top:30px;
+    width:25%;
+    float:right;
+    margin-right:140px;
+    height:210px;
+    padding:-10;
+    
+}
+
+h3{
+    font-size:1.7em;
+    font-weight: bold;
+    color: rgb(28, 173, 154);
+    padding:15px;
+    text-align: center;
+        
+}
+
+a{
+    color:gray;
+    text-decoration: none;
+}
+
+.connect > div > a > img{
+    width:70px;
+    height:70px;
+    margin:10px;
+    
+}
+
+#b{
+    
+    background: rgb(238, 237, 237);
+    border-radius: 5px;
+}
+
+.connect1{
+    text-align: center;
+}
+
+.roboto{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input,textarea{
+    width:90%;
+    height:15px;
+}
+
+#message > form > textarea{
+    height:100px;
+}
+
+.button{
+    background: rgb(28, 173, 154);
+    display:inline-block;
+    color:white; 
+    margin:20px 0 0 50px;
+    padding:10px 20px; 
+}
+
+.button:hover{
+    background: rgb(35, 153, 137);
+}
+
+.button:active{
+    background: rgb(35, 126, 114);
+}
