@@ -3,7 +3,7 @@
 }
 
 body{
-    background: url(./../image/white-wall.jpg);
+    background: url(./white-wall.jpg);
     background-repeat: no-repeat;
     
 }
@@ -170,7 +170,6 @@ hr{
         width:75%;
         height:500px;
         clear: both;
-        
     }
 
     .main > h2{
